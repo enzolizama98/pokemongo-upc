@@ -1,0 +1,35 @@
+﻿Build started 23/11/2016 11:26:04 a. m..
+     1>Project "C:\Users\Enzo\Desktop\POKEMON GO UPC - FINAL DE FINALES\HITO2\HITO2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib MyForm.cpp Personaje.cpp
+         MyForm.cpp
+     1>c:\users\enzo\desktop\pokemon go upc - final de finales\hito2\MyForm.h(297): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\enzo\desktop\pokemon go upc - final de finales\hito2\MyForm.h(311): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\enzo\desktop\pokemon go upc - final de finales\hito2\MyForm.h(570): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\enzo\desktop\pokemon go upc - final de finales\hito2\MyForm.h(756): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\enzo\desktop\pokemon go upc - final de finales\hito2\MyForm.h(806): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         Personaje.cpp
+     1>Personaje.cpp(36): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>Personaje.cpp(230): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Enzo\Desktop\POKEMON GO UPC - FINAL DE FINALES\Debug\HITO2.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\HITO2.extra1.resources /ASSEMBLYRESOURCE:Debug\HITO2.Mochila.resources /ASSEMBLYRESOURCE:Debug\HITO2.MyForm.resources /ASSEMBLYRESOURCE:Debug\HITO2.MyForm1.resources /ASSEMBLYRESOURCE:Debug\HITO2.MyForm2.resources /ASSEMBLYRESOURCE:Debug\HITO2.Pokeparada.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Enzo\Desktop\POKEMON GO UPC - FINAL DE FINALES\Debug\HITO2.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\ArrBalas.obj
+         Debug\ArrPokemones.obj
+         Debug\Bala.obj
+         Debug\BatallaPokemon.obj
+         Debug\Capturarpokemon.obj
+         Debug\extra1.obj
+         Debug\Mochila.obj
+         Debug\MyForm.obj
+         Debug\MyForm1.obj
+         Debug\MyForm2.obj
+         Debug\Personaje.obj
+         Debug\Pokemones.obj
+         Debug\Pokeparada.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         HITO2.vcxproj -> C:\Users\Enzo\Desktop\POKEMON GO UPC - FINAL DE FINALES\Debug\HITO2.exe
+     1>Done Building Project "C:\Users\Enzo\Desktop\POKEMON GO UPC - FINAL DE FINALES\HITO2\HITO2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.87
